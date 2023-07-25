@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFEE | Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <div class="row">
+    
+            <div class="logo col-4 pt-4">
+                <ul class="row text-right">
+                    <h2><a href="index.html" class="nav-link fs-2">COFFE & CAKES</a></h2>
+                </ul>
+            </div>
+            
+            <div class="col-8 pt-4">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link item-nav fs-5">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="menu.html" class="nav-link item-nav fs-5">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nosotros.html" class="nav-link item-nav fs-5">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <header class="container-fluid">
+        <ul class="nav justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item " role="presentation"></li>
+
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active text-black" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">CARTA</a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-black" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">CARRITO</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="tab-content container-fluid" id="pills-tabContent" >
+
+        <div class="tab-pane fade show active " id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+        <!-- BEBIDAS CALIENTES 
+            
+            "cosas a CAMBIAR"
+            comentario
+            h5: nombre
+            img
+            precio
+            -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="h1">BEBIDAS CALIENTES</p>
+                </div>
+            </div>
+            <!-- BEBIDAS CALIENTES cards-->
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                
+                <!-- EXPRESO-->
+                <div class="justify-content-center">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">EXPRESO</h5>
+                        <img src="img/cafe1.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <!-- <p class="card-text text-black-50 description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At commodi cumque eveniet dicta hic ullam in nostrum aut provident ea.</p> -->
+                            <h5 class="precio text-center">S/ <span class="precio">10</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAPUCHINO-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">CAPUCHINO</h5>
+                        <img src="./img/cafe2.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">15</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AMERICANO-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">AMERICANO</h5>
+                        <img src="./img/cafe3.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">8</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LATE MACHIATO-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">LATE MACHIATO</h5>
+                        <img src="./img/cafe4.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">8</span>.50</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FRAPPE-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">FRAPPE</h5>
+                        <img src="./img/cafe5.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">12</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LATTE-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">LATTE</h5>
+                        <img src="./img/cafe6.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">18</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LATE WITH CREAM-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">LATE WITH CREAM</h5>
+                        <img src="./img/cafe7.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">13</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AFFOGATO-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">AFFOGATO</h5>
+                        <img src="./img/cafe8.avif" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">20</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        <!-- BEBIDAS CALIENTES fin-->
+
+        <!-- BEBIDAS FRIAS-->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="h1">BEBIDAS FRIAS</p>
+                </div>
+            </div>
+            <!-- BEBIDAS FRIAS cards-->
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <!-- ESPRESSO ESPUMOSO CON MENTA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">ESPRESSO ESPUMOSO CON MENTA</h5>
+                        <img src="./img/fondo10.webp" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">10</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ICED LATTE-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">ICED LATTE</h5>
+                        <img src="./img/fondo11.webp" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">7</span>.50</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--VIEDNAMESE ICED COFFE-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">VIEDNAMESE ICED COFFE</h5>
+                        <img src="./img/fondo12.webp" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">6</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ICED CARAMEL MACCHIATO-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">ICED CARAMEL MACCHIATO</h5>
+                        <img src="./img/fondo13.webp" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">12</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ICED CARAMEL LATTE $ VAINILLA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">ICED CARAMEL LATTE $ VAINILLA</h5>
+                        <img src="./img/fondo14.webp" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">10</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- BEBIDAS FRIAS fin-->
+
+        <!-- SNACKS-->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="h1">SNACKS</p>
+                </div>
+            </div>
+            <!-- SNACKS cards-->
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                
+                <!-- TORTA DE JAMÓN-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">TORTA DE JAMÓN</h5>
+                        <img src="./img/snacks1.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <!-- <p class="card-text text-black-50 description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At commodi cumque eveniet dicta hic ullam in nostrum aut provident ea.</p> -->
+                            <h5 class="precio text-center">S/ <span class="precio">6</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--TORTA DE SALCHICHA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">TORTA DE SALCHICHA</h5>
+                        <img src="./img/snacks2.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">7</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TORTA DE MILANESA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">TORTA DE MILANESA</h5>
+                        <img src="./img/snacks3.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">12</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--HAMBURGUESA CLÁSICA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">HAMBURGUESA CLÁSICA</h5>
+                        <img src="./img/snacks4.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">10</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HAMBURGUESA HAWAIANA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">HAMBURGUESA HAWAIANA</h5>
+                        <img src="./img/snacks5.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">12</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HOT DOG-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">HOY DOG</h5>
+                        <img src="./img/snacks6.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">7</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CLUB SÁNDWICH-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">CLUB SÁNDWICH</h5>
+                        <img src="./img/snacks7.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">20</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOCACCIA DE POLLO-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">FOCACCIA DE POLLO</h5>
+                        <img src="./img/snacks8.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">20</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        <!-- SNACKS fin-->
+
+        <!-- POSTRES-->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <p class="h1">POSTRES</p>
+                </div>
+            </div>
+            <!-- POSTRES cards-->
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <!-- EMPANADAS-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">EMPANADAS</h5>
+                        <img src="./img/postre1.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">5</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PAY DE MANZANA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">PAY DE MANZANA</h5>
+                        <img src="./img/postre2.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">4</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ALFAJORES-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">ALFAJORES</h5>
+                        <img src="./img/postre3.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">3</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- DONAS-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">DONAS</h5>
+                        <img src="./img/postre4.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">4</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- COOKES-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">COOKES</h5>
+                        <img src="./img/postre5.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">5</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HUAFLES-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">HUAFLES</h5>
+                        <img src="./img/postre6.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">4</span>.50</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CREMA VOLTEADA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">CREMA VOLTEADA</h5>
+                        <img src="./img/postre7.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">7</span>.00</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- LECHE ASADA-->
+                <div class="justify-content-center ">
+                    <div class="card shadow mb-1 rounded">
+                        <h5 class="card-title pt-2 text-center">LECHE ASADA</h5>
+                        <img src="./img/postre8.jpg" height="150px" class="card-img-top">
+                        <div class="card-body row">
+                            <h5 class="precio text-center">S/ <span class="precio">5</span>.50</h5>
+                            <div class="d-grid">
+                                <button class="btn btn-dark button text-center ">Añadir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- PASTELES fin-->
+
+        <!-- PASTELES-->
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <p class="h1">PASTELES</p>
+            </div>
+        </div>
+        <!-- PASTELES cards-->
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+            <!-- SELVA NEGRA-->
+            <div class="justify-content-center ">
+                <div class="card shadow mb-1 rounded">
+                    <h5 class="card-title pt-2 text-center">SELVA NEGRA</h5>
+                    <img src="./img/pastel1.jpg" height="150px" class="card-img-top">
+                    <div class="card-body row">
+                        <h5 class="precio text-center">S/ <span class="precio">7</span>.50</h5>
+                        <div class="d-grid">
+                            <button class="btn btn-dark button text-center ">Añadir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TRES LECHES-->
+            <div class="justify-content-center ">
+                <div class="card shadow mb-1 rounded">
+                    <h5 class="card-title pt-2 text-center">TRES LECHES</h5>
+                    <img src="./img/pastel2.jpg" height="150px" class="card-img-top">
+                    <div class="card-body row">
+                        <h5 class="precio text-center">S/ <span class="precio">7</span>.50</h5>
+                        <div class="d-grid">
+                            <button class="btn btn-dark button text-center">Añadir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- RED VELVET-->
+            <div class="justify-content-center ">
+                <div class="card shadow mb-1 rounded">
+                    <h5 class="card-title pt-2 text-center">RED VELVET</h5>
+                    <img src="./img/pastel3.jpg" height="150px" class="card-img-top">
+                    <div class="card-body row">
+                        <h5 class="precio text-center">S/ <span class="precio">6</span>.50</h5>
+                        <div class="d-grid">
+                            <button class="btn btn-dark button text-center ">Añadir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MOSTACHÓN-->
+            <div class="justify-content-center ">
+                <div class="card shadow mb-1 rounded">
+                    <h5 class="card-title pt-2 text-center">MOSTACHÓN--</h5>
+                    <img src="./img/pastel4.jpg" height="150px" class="card-img-top">
+                    <div class="card-body row">
+                        <h5 class="precio text-center">S/ <span class="precio">6</span>.00</h5>
+                        <div class="d-grid">
+                            <button class="btn btn-dark button text-center ">Añadir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MOCKA ESPECIAL-->
+            <div class="justify-content-center ">
+                <div class="card shadow mb-1 rounded">
+                    <h5 class="card-title pt-2 text-center">COOKES</h5>
+                    <img src="./img/pastel5jpg.jpg" height="150px" class="card-img-top">
+                    <div class="card-body row">
+                        <h5 class="precio text-center">S/ <span class="precio">5</span>.00</h5>
+                        <div class="d-grid">
+                            <button class="btn btn-dark button text-center ">Añadir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    <!-- POSTRES fin-->
+
+        </div>
+
+        <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <br>
+            <table class="table table-danger table-hover">
+                <thead>
+                    <tr class="">
+
+                        <th scope="col" style="font-size: 15px;">Productos</th>
+                        <th scope="col" style="font-size: 15px;">Precio</th>
+                        <th scope="col" style="font-size: 15px;">Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+
+
+
+                </tbody>
+            </table>
+            <br><br>
+            <div class="row mx-4">
+                <div class="col">
+                    <h3 class="itemCartTotal text-dark">Total: 0</h3>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <a href="registro1.html" class="btn btn-danger">COMPRAR</a>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <script src="js/test.js"></script>
+    <script src="js/carrito.js"></script>
+    <!-- Pie de Pagina-->
+<div class="container-fluid pie">
+    <footer class="row footer">
+        <div>
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
